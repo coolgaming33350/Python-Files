@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="132368f6-c671-48ca-988b-f254fe25fe7b" name="Changes" comment="added workspace.xml">
+    <list default="true" id="132368f6-c671-48ca-988b-f254fe25fe7b" name="Changes" comment="deleted a bad file that was flooding the logs with errors on the workflow tests.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/password manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/password manager.py" afterDir="false" />
     </list>
@@ -43,7 +43,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650053342913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated password manager.py to print out the time in nanoseconds that it takes to process a part of the program.">
+      <created>1650054500440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650054500440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deleted a bad file that was flooding the logs with errors on the workflow tests.">
+      <created>1650054664363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650054664363</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -59,6 +73,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="added workspace.xml" />
+    <MESSAGE value="updated password manager.py to print out the time in nanoseconds that it takes to process a part of the program." />
+    <MESSAGE value="deleted a bad file that was flooding the logs with errors on the workflow tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted a bad file that was flooding the logs with errors on the workflow tests." />
   </component>
 </project>

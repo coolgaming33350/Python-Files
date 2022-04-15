@@ -1,6 +1,6 @@
 import time
 import random
-
+import turtle
 import os.path
 isvalidchoice = 'false'
 print('DO NOT USE IDLE TO RUN THIS!! IT WILL NOT SAVE PASSWORDS!')
