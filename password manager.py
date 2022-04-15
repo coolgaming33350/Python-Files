@@ -36,14 +36,14 @@ def appendNew():
     file.write("---------------------------------\n")
     file.write("\n")
     file.close
-    time.thread_time()
+    print(time.thread_time_ns())
 
 def readPasswords():
     file = open('info.txt', 'r')
     content = file.read()
     file.close()
     print(content)
-    time.thread_time()
+    print(time.thread_time_ns())
 
 def generatePasswords():
     one = (
