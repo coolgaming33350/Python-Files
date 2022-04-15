@@ -14,4 +14,3 @@ for x in range(100000):
     tim.goto(0,0)
     size = int((size + 10))
     tim.pensize(size)
-pen.write("Score : {} High Score : {} ".format(score, high_score), align="center", font=("candara", 24, "bold"))
