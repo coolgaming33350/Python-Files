@@ -5,6 +5,7 @@ import os.path
 isvalidchoice = 'false'
 print('DO NOT USE IDLE TO RUN THIS!! IT WILL NOT SAVE PASSWORDS!')
 temppwd = ''
+tim = turtle.Turtle()
 def checkExistence():
     if os.path.exists("info.txt"):
         pass
