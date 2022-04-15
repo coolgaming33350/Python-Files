@@ -2,7 +2,7 @@ import turtle
 yeslist = ("yes", "y", "YES", "Yes", "yas", "Yas", "ye", "Ye")
 
 t = turtle.Turtle("turtle")
-
+testlol = 'idklol'
 colour = input("What color would you like to use?\n(DONT USE A HASH before the code if you use hex!):")
 
 ishexcode = int(len(colour))
