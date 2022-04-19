@@ -1,20 +1,19 @@
 import time
 import random
-import turtle
 import os.path
 isvalidchoice = 'false'
 print('DO NOT USE IDLE TO RUN THIS!! IT WILL NOT SAVE PASSWORDS!')
 temppwd = ''
-tim = turtle.Turtle()
 def checkExistence():
-    if os.path.exists("info.txt"):
+    if os.path.exists("pgdmgr.txt"):
         pass
     else:
-        file = open("info.txt", 'w')
+        file = open("pwdmgr.txt", 'w')
         file.close()
 
+
 def appendNew():
-    file = open("info.txt", 'a')
+    file = open("pwdmgr.txt", 'a')
 
     print()
     print()
@@ -37,14 +36,15 @@ def appendNew():
     file.write("---------------------------------\n")
     file.write("\n")
     file.close
-    print(time.thread_time_ns())
+    appendtime = 'Process Executed in ' + str(time.thread_time_ns()) + ' nanoseconds!'
+    print(appendtime)
 
 def readPasswords():
-    file = open('info.txt', 'r')
+    file = open('pwdmgr.txt', 'r')
     content = file.read()
     file.close()
     print(content)
-    print(time.thread_time_ns())
+    print('Process Executed in ' + str(time.thread_time_ns()) + ' nanoseconds!')
 
 def generatePasswords():
     one = (
@@ -132,7 +132,7 @@ def generatePasswords():
     temppwd10 = (temppwd9 + eleven[num11])
     temppwd11 = (temppwd10 + twelve[num12])
     print('\nHere is your password: ' + temppwd11)
-    file = open("info.txt", 'a')
+    file = open("pwdmgr.txt", 'a')
 
     print()
     print()
@@ -155,7 +155,7 @@ def generatePasswords():
     file.write("---------------------------------\n")
     file.write("\n")
     file.close
-    print(time.thread_time_ns())
+    print('Process Executed in ' + str(time.thread_time_ns()) + ' nanoseconds!')
 
 def test():
     print('test')
@@ -178,4 +178,3 @@ while isvalidchoice == 'false':
         print('Please try again.')
     
 exitvar = str(input('Press enter to exit '))
-exitvar
