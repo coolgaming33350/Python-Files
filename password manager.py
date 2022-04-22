@@ -10,6 +10,11 @@ def checkExistence():
     else:
         file = open("pwdmgr.txt", 'w')
         file.close()
+    if os.path.exists("masterpwd.txt"):
+        pass
+    else:
+        file = open("masterpwd.txt", 'w')
+        file.close()
 
 
 def appendNew():

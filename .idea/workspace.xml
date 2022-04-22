@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="FINALLY GOT THE COMMIT TAB TO COME BACK!!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/password manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/password manager.py" afterDir="false" />
-    </list>
+    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="added nanoseconds counter to all threads. also changed file name and attempted to fix a bug.&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27qrFUwGOl9EPh8yyPP2f2KHk3m" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
@@ -115,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650135997962</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added nanoseconds counter to all threads. also changed file name and attempted to fix a bug.">
+      <created>1650405054731</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650405054731</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added nanoseconds counter to all threads. also changed file name and attempted to fix a bug.&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
+      <created>1650405105514</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650405105514</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,8 +150,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="FINALLY GOT THE COMMIT TAB TO COME BACK!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINALLY GOT THE COMMIT TAB TO COME BACK!!" />
+    <MESSAGE value="added nanoseconds counter to all threads. also changed file name and attempted to fix a bug." />
+    <MESSAGE value="added nanoseconds counter to all threads. also changed file name and attempted to fix a bug.&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added nanoseconds counter to all threads. also changed file name and attempted to fix a bug.&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
