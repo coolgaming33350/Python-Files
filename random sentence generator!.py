@@ -1,52 +1,6 @@
 import random
 import time
 
-
-print("Loading")
-time.sleep(0.5)
-print("Loading.")
-time.sleep(0.5)
-print("Loading..")
-time.sleep(0.3)
-print("Loading...")
-time.sleep(0.5)
-print("Loading....")
-time.sleep(0.4)
-print("Loading.....")
-time.sleep(0.3)
-print("Loading......")
-time.sleep(0.2)
-print("Loading.......")
-time.sleep(0.4)
-print("Loading........")
-time.sleep(0.2)
-print("Loading.........")
-time.sleep(0.4)
-print("Loading..........")
-time.sleep(0.3)
-print("Loading...........")
-time.sleep(0.5)
-print("Loading............")
-time.sleep(0.3)
-print("Loading.............")
-time.sleep(0.3)
-print("Loading..............")
-time.sleep(0.2)
-print("Loading...............")
-time.sleep(0.2)
-print("Loading................")
-time.sleep(0.2)
-print("Loading.................")
-time.sleep(0.2)
-print("Loading..................")
-time.sleep(0.1)
-print("Loading...................")
-time.sleep(0.1)
-print("Loading....................")
-time.sleep(0.05)
-print("Loading.....................")
-
-
 sentences = int(input("How many sentences would you like to make?: "))
 loop = 0
 while loop < sentences:
@@ -63,4 +17,4 @@ while loop < sentences:
     print (nouns[num1] + ' ' + verbs[num2] + ' ' + adv[num3] + ' ' + adj[num4] + pun[num5])
     loop = (loop + 1)
 print("Done printing, made " + str(sentences) + " sentences!")
-
+entervar = input('Press enter to exit... ')
