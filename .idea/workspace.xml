@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="added unlimited numbers.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/Ugedbaudasudsdhusbd idk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plagerisim checker for writing.py" afterDir="false" />
+    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="idk.py&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ugedbaudasudsdhusbd idk.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ugedbaudasudsdhusbd idk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.some random file sam sent me">
     <configuration name="plagerisim checker for writing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A. python files" />
@@ -277,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652455571212</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="idk.py&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
+      <created>1662690898526</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662690898526</updated>
+    </task>
+    <task id="LOCAL-00016" summary="idk.py&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
+      <created>1662690947684</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662690947684</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +310,8 @@
     <MESSAGE value="added nanoseconds counter to all threads. also changed file name and attempted to fix a bug.&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <MESSAGE value="added calculator.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <MESSAGE value="added unlimited numbers.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added unlimited numbers.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+    <MESSAGE value="idk.py&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="idk.py&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
