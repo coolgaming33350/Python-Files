@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="idk.py&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ugedbaudasudsdhusbd idk.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ugedbaudasudsdhusbd idk.py" afterDir="false" />
-    </list>
+    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="Added .name, Ugedbaudasudsdhusbd idk.py, workspace.xml&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -289,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662690947684</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added .name, Ugedbaudasudsdhusbd idk.py, workspace.xml&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
+      <created>1670106872856</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670106872856</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,7 +314,9 @@
     <MESSAGE value="added calculator.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <MESSAGE value="added unlimited numbers.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <MESSAGE value="idk.py&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="idk.py&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+    <MESSAGE value="&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+    <MESSAGE value="Added .name, Ugedbaudasudsdhusbd idk.py, workspace.xml&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .name, Ugedbaudasudsdhusbd idk.py, workspace.xml&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
