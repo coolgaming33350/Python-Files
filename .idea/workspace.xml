@@ -53,8 +53,8 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.scratch (1)">
-    <configuration name="plagerisim checker for writing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.media upload server">
+    <configuration name="media upload server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A. python files" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plagerisim checker for writing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/media upload server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.media upload server" />
         <item itemvalue="Python.scratch (1)" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.some random file sam sent me" />
         <item itemvalue="Python.scratchattach annoying hahah" />
-        <item itemvalue="Python.plagerisim checker for writing" />
       </list>
     </recent_temporary>
   </component>
