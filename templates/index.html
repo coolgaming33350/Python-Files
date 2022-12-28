@@ -1,4 +1,13 @@
+<h1>Homepage</h1>
+
 <form method="POST" action="/upload" enctype="multipart/form-data">
   <input type="file" name="file">
   <input type="submit" value="Upload">
 </form>
+
+<h2>Available Videos:</h2>
+<ul>
+  {% for file in video_files %}
+    <li><a href="/video/{{ file }}">{{ file }}</a></li>
+  {% endfor %}
+</ul>

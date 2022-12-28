@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="Added media upload server.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
-      <change beforePath="$PROJECT_DIR$/video sharing service.py" beforeDir="false" afterPath="$PROJECT_DIR$/video sharing service.py" afterDir="false" />
+    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="Add video sharing service.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.media upload server">
+  <component name="RunManager" selected="Python.video sharing service">
     <configuration name="media upload server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A. python files" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,27 +117,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratchattach annoying hahah" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="A. python files" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../scratchattach annoying hahah.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="some random file sam sent me" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A. python files" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,13 +138,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="video sharing service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="A. python files" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/video sharing service.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.video sharing service" />
         <item itemvalue="Python.media upload server" />
         <item itemvalue="Python.scratch (1)" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.some random file sam sent me" />
-        <item itemvalue="Python.scratchattach annoying hahah" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672268553241</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add video sharing service.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
+      <created>1672268740574</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672268740574</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,7 +379,8 @@
     <MESSAGE value="Added .name, Ugedbaudasudsdhusbd idk.py, workspace.xml&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <MESSAGE value="Updated .name, Ugedbaudasudsdhusbd idk.py, workspace.xml&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <MESSAGE value="Added media upload server.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added media upload server.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+    <MESSAGE value="Add video sharing service.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add video sharing service.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
