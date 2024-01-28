@@ -5,7 +5,7 @@ import tkinter as tk
 class ServerGUI:
     def __init__(self):
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.host = '192.168.1.251'
+        self.host = '192.168.0.104'
         self.port = 5555
         self.clients = []
         self.nicknames = []
@@ -61,6 +61,12 @@ class ServerGUI:
 
             threading.Thread(target=self.handle_client, args=(client,)).start()
 
+            self.send_clients_list_to_client(client)
+
+    def send_clients_list_to_client(self, target_client):
+        client_list = ",".join([f"{nickname} ({client.getpeername()[0]})" for nickname, client in zip(self.nicknames, self.clients)])
+        target_client.send(f"/other_clients:{client_list}".encode('utf-8'))
+
     def handle_client(self, client):
         while True:
             try:
@@ -69,6 +75,8 @@ class ServerGUI:
                     pass
                 elif message.startswith('/broadcast'):
                     pass
+                elif message.startswith('/get_other_clients'):
+                    self.send_clients_list_to_client(client)
                 else:
                     sender_index = self.clients.index(client)
                     sender_nickname = self.nicknames[sender_index]

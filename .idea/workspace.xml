@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="Add video sharing service.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;">
+    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="Add PyChat Files by VagrantW56&#10;&#10;Made by Carter Spenner &amp; VagrantW56">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyChat/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyChat/Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyChat/samuelclient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyChat/samuelserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyChat/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyChat/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="27qrFUwGOl9EPh8yyPP2f2KHk3m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,21 +46,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Client.executor": "Run",
+    "Python.Server.executor": "Run",
+    "Python.samuelclient.executor": "Run",
+    "Python.samuelserver.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "advanced.settings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python.video sharing service">
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="A. python files" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyChat" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyChat/Client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Server" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="A. python files" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyChat" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyChat/Server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="media upload server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A. python files" />
       <option name="ENV_FILES" value="" />
@@ -142,37 +200,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="video sharing service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="A. python files" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/video sharing service.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.video sharing service" />
         <item itemvalue="Python.media upload server" />
         <item itemvalue="Python.scratch (1)" />
         <item itemvalue="Python.scratch" />
-        <item itemvalue="Python.some random file sam sent me" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -358,7 +399,23 @@
       <option name="project" value="LOCAL" />
       <updated>1672268740574</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add PyChat Files&#10;&#10;Made by Carter Spenner &amp; VagrantW56">
+      <option name="closed" value="true" />
+      <created>1706415439671</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706415439671</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add PyChat Files by VagrantW56&#10;&#10;Made by Carter Spenner &amp; VagrantW56">
+      <option name="closed" value="true" />
+      <created>1706415613508</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1706415613508</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +442,9 @@
     <MESSAGE value="Updated .name, Ugedbaudasudsdhusbd idk.py, workspace.xml&#10;&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <MESSAGE value="Added media upload server.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
     <MESSAGE value="Add video sharing service.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add video sharing service.py&#10;&#10;Signed-off-by: coolgaming33350 &lt;carter.spenner@gmail.com&gt;" />
+    <MESSAGE value="Add PyChat Files&#10;&#10;Made by Carter Spenner &amp; VagrantW56" />
+    <MESSAGE value="Add PyChat Files by VagrantW56&#10;&#10;Made by Carter Spenner &amp; VagrantW56" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add PyChat Files by VagrantW56&#10;&#10;Made by Carter Spenner &amp; VagrantW56" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
