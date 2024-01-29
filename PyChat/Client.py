@@ -12,7 +12,7 @@ message_entry = None
 clients_listbox = None
 
 retry_attempts = 3
-reconnect_delay = 5  # seconds
+reconnect_delay = 3  # seconds between reconnect attempts
 MAX_RETRY_ATTEMPTS = 3
 kicked = False
 server_address = "127.0.0.1" #placeholder cuz idk

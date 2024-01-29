@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="changed title">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyChat/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyChat/Client.py" afterDir="false" />
-    </list>
+    <list default="true" id="4eaf4071-4003-4c44-84eb-5dd1e993a7a3" name="Changes" comment="added ip switcher" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +59,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.Client">
+  <component name="RunManager" selected="Python.Server">
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="A. python files" />
       <option name="ENV_FILES" value="" />
@@ -444,7 +441,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706494755616</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="added ez ip switcher">
+      <option name="closed" value="true" />
+      <created>1706495102433</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1706495102433</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added ip switcher">
+      <option name="closed" value="true" />
+      <created>1706495236199</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1706495236199</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +490,9 @@
     <MESSAGE value="lots of updates, bugfixes, and QOL changes" />
     <MESSAGE value="hotfix" />
     <MESSAGE value="changed title" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed title" />
+    <MESSAGE value="added ez ip switcher" />
+    <MESSAGE value="added ip switcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ip switcher" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
