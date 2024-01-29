@@ -24,7 +24,7 @@ kickmsgdisplayed = False
 def create_gui():
     global chat_window, chat_display, message_entry, clients_listbox
     chat_window = tk.Tk()
-    chat_window.title("Chat Client")
+    chat_window.title("PyChat Client")
 
     # Set a modern style for ttk widgets
     style = ttk.Style()
