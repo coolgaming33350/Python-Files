@@ -15,11 +15,12 @@ retry_attempts = 3
 reconnect_delay = 5  # seconds
 MAX_RETRY_ATTEMPTS = 3
 kicked = False
-server_address = "127.0.0.1"
-server_port = 5555
+server_address = "127.0.0.1" #placeholder cuz idk
+server_port = 5555 #ONLY CHANGE IF AGREED UPON
 kickmsgdisplayed = False
 
-whoisrunning = "Carter"
+whoisrunning = "Carter" # "Samuel" for you, "Carter" for me. (CASE SENSITIVE!!)
+
 if whoisrunning == "Carter":
     server_address = "192.168.0.104"
 elif whoisrunning == "Samuel":
