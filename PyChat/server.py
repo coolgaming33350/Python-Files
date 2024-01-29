@@ -1,6 +1,7 @@
 import socket
 import threading
 import tkinter as tk
+import time
 
 class ServerGUI:
     def __init__(self):
@@ -9,6 +10,8 @@ class ServerGUI:
         self.port = 5555
         self.clients = []
         self.nicknames = []
+        self.message_timestamps = {}  # Store message timestamps for rate limiting
+        self.rate_limit_interval = 0.25  # Rate limit interval in seconds
 
         self.root = tk.Tk()
         self.root.title("Chat Server")
@@ -45,26 +48,50 @@ class ServerGUI:
     def accept_clients(self):
         while True:
             client, address = self.server.accept()
-            print(f"Connection from {address}")
 
-            nickname = client.recv(1024).decode('utf-8')
+            # Ignore connections from specific IP addresses LEAVE THESE HERE DONT MESS WITH THEM
+            if address[0] in ["172.17.0.2", "192.168.0.48"]:
+                client.send("Hello from the server!".encode('utf-8'))
+                client.close()
+                continue
+
+            # Receive the nickname from the client
+            try:
+                nickname = client.recv(1024).decode('utf-8')
+            except Exception as e:
+                print(f"Error receiving nickname from {address}: {str(e)}. Closing Connection!")
+                client.close()
+                continue
+
+            # If the nickname is empty, close the connection and continue
+            if not nickname:
+                print(f"Connection from {address} without a nickname. Connection ignored.")
+                client.close()
+                continue
+
+            print(f"Connection from {address}")
+            # Add the client and nickname to the lists
             self.clients.append(client)
             self.nicknames.append(nickname)
 
+            # Update the clients listbox
             self.clients_listbox.insert(tk.END, f"{nickname} ({address[0]})")
 
+            # Send welcome message and notify other clients
             welcome_message = "Connected to the server."
             client.send(welcome_message.encode('utf-8'))
 
             join_message = f"{nickname} joined the server."
             self.broadcast_message_to_clients(join_message, client)
 
+            # Start handling client messages in a separate thread
             threading.Thread(target=self.handle_client, args=(client,)).start()
 
+            # Send the list of other clients to the newly connected client
             self.send_clients_list_to_client(client)
 
     def send_clients_list_to_client(self, target_client):
-        client_list = ",".join([f"{nickname} ({client.getpeername()[0]})" for nickname, client in zip(self.nicknames, self.clients)])
+        client_list = ",".join([f"{nickname}" for nickname, client in zip(self.nicknames, self.clients)])
         target_client.send(f"/other_clients:{client_list}".encode('utf-8'))
 
     def handle_client(self, client):
@@ -78,10 +105,13 @@ class ServerGUI:
                 elif message.startswith('/get_other_clients'):
                     self.send_clients_list_to_client(client)
                 else:
-                    sender_index = self.clients.index(client)
-                    sender_nickname = self.nicknames[sender_index]
-                    formatted_message = f"{sender_nickname}: {message}"
-                    self.broadcast_message_to_clients(formatted_message, client)
+                    if self.check_rate_limit(client):
+                        sender_index = self.clients.index(client)
+                        sender_nickname = self.nicknames[sender_index]
+                        formatted_message = f"{sender_nickname}: {message}"
+                        self.broadcast_message_to_clients(formatted_message, client)
+                    else:
+                        client.send("Rate limit exceeded. Please wait before sending another message.".encode('utf-8'))
             except:
                 index = self.clients.index(client)
                 self.clients.remove(client)
@@ -102,7 +132,7 @@ class ServerGUI:
                 selected_client = self.clients[selected_index]
                 selected_client_nickname = self.nicknames[selected_index]
 
-                selected_client.send("You have been kicked by the admin".encode('utf-8'))
+                selected_client.send("You have been kicked by the server owner. Reconnection has been disabled.".encode('utf-8'))
                 selected_client.close()
 
                 del self.clients[selected_index]
@@ -129,7 +159,17 @@ class ServerGUI:
         self.clients_listbox.delete(0, tk.END)
         for nickname, client in zip(self.nicknames, self.clients):
             address = client.getpeername()[0]
-            self.clients_listbox.insert(tk.END, f"{nickname} ({address})")
+            if address != "172.17.0.2":
+                self.clients_listbox.insert(tk.END, f"{nickname}")
+
+    def check_rate_limit(self, client):
+        current_time = time.time()
+        if client in self.message_timestamps:
+            last_message_time = self.message_timestamps[client]
+            if current_time - last_message_time < self.rate_limit_interval:
+                return False
+        self.message_timestamps[client] = current_time
+        return True
 
 if __name__ == "__main__":
     server_gui = ServerGUI()

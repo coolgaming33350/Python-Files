@@ -32,12 +32,13 @@ def create_gui():
 
     clients_listbox = tk.Listbox(chat_window, width=20)
     clients_listbox.pack(side=tk.LEFT, fill=tk.Y)
+    clients_listbox.configure(font=("Quicksand", 10))
 
     chat_display = scrolledtext.ScrolledText(chat_window)
     chat_display.pack(expand=True, fill=tk.BOTH)
     chat_display.configure(font=("Quicksand Bold", 12))
 
-    message_entry = ttk.Entry(chat_window, font=("Helvetica", 14))
+    message_entry = ttk.Entry(chat_window, font=("Quicksand", 14))
     message_entry.pack(side=tk.BOTTOM, fill=tk.X)
     message_entry.bind("<Return>", send_message)
 

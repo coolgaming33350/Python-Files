@@ -64,7 +64,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.Server">
+  <component name="RunManager" selected="Python.Client">
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="A. python files" />
       <option name="ENV_FILES" value="" />
