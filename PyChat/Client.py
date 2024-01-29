@@ -33,7 +33,7 @@ def create_gui():
 
     # Set a modern style for ttk widgets
     style = ttk.Style()
-    style.theme_use("clam")  # You can choose other themes as well
+    style.theme_use("vista")  # You can choose other themes as well
 
     clients_listbox = tk.Listbox(chat_window, width=20)
     clients_listbox.pack(side=tk.LEFT, fill=tk.Y)
